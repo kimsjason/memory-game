@@ -37,7 +37,7 @@ const Card = (props) => {
 
   return (
     <div className="card" onClick={handleClick}>
-      <div className="number">{props.value}</div>
+      <img id={props.id} src={props.path} alt={props.id}></img>
     </div>
   );
 };
