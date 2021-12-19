@@ -1,0 +1,13 @@
+.scoreboard {
+  display: flex;
+  gap: 50px;
+  margin: 50px;
+}
+
+.current-score,
+.best-score {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  box-shadow: 0 0 10px lightgray;
+  padding: 25px;
+}
