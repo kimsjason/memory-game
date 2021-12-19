@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Card } from "./Card";
+import "../styles/Gameboard.css";
 
 const Gameboard = (props) => {
   const [cards, setCards] = useState([
