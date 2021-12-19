@@ -1,3 +1,5 @@
+import "../styles/Card.css";
+
 const Card = (props) => {
   const handleClick = (e) => {
     if (!props.clicked) {
